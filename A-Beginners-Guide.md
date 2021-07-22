@@ -80,12 +80,13 @@ merkle trees would be a waste of time. Instead there's a lot of manual lookup.
 If this _does_ cross 1,000 or 2,000 transactions, a) I will be very surprised,
 and b) I will consider implementing merkle trees.
 
-3. I don't think I really want to open source the Network because whatever I
+3. <s>I don't think I really want to open source the Network because whatever I
 wrote is a pile of garbage I never want anyone to see. I'm frankly embarassed
 that I even wrote this. For all you know, I could just be keeping a big
 dictionary of addresses and balances instead of implementing a proper
 blockchain. You can rest assured I didn't. When (and if) I refactor my code, I
-will open source it, but just not today.
+will open source it, but just not today.</s> Whodathunk it... I refactored my
+code and you can now find it at [Core](https://github.com/IceCereum/Core).
 
 ### What the wallet does under the hood
 
